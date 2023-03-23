@@ -1,4 +1,4 @@
-# PreEntrega2Barrera.
+# ProyectoFinalBarrera.
 Este código es una implementación de una tienda en línea que permite al usuario ver una lista de productos, agregarlos al carrito de compras y ver el total de los productos seleccionados.
 
 Primero, se definen las variables que se utilizarán para acceder a los elementos HTML relevantes: lista, prodAlistados, vaciarCarrito, precioTotal y verTotal.
