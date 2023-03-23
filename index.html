@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Replay</title>
+    <!-- Icono de la página -->
+    <link rel="icon" href="/img/r.png" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+
+  <body>
+    <header class="header" style="background-color: #289600;">
+      <div class="header-inner">
+        <div class="container-fluid px-lg-5">
+          <nav class="navbar navbar-expand-lg my-navbar">
+            <a class="navbar-brand" href="../index.html">
+              <span class="logo">
+                <img src="/img/r.png" class="img-fluid" style="width: 30px; margin: -3px 0px 0px 0px;" />
+                eplay
+              </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <i class="fas fa-bars" style="margin: 5px 0px 0px 0px;"></i>
+              </span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="#">Productos</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="#">Registrate</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#modal">
+                    <i class="bi bi-cart mx-5" id="carritoContenedor" >0</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="container-xl">
+      <div class="modal" tabindex="-1" role="dialog" id="modal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="prodAlistados">Carrito</h5>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" id="vaciarCarrito">
+                Vaciar carrito
+              </button>
+              <button type="button" id="total" class="btn btn-primary">
+               Finaliza la compra
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                Cerrar
+              </button>
+              <span id="precioTotal">Precio total:</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container mt-3 p-2 contenedorPrincipal"id="shop">
+  <div  class="row justify-content-center align-items-center align-self-center gap-5" id="productosContenedor">
+
+  </div></div>
+  <p class="text-white bg-dark text-center fw-lighter m-0 ">&copy;2023 <b>Replay</b> - Todos los derechos reservados.</p>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- JS -->
+    <script src="/js/carrito.js"></script>
+
+</body>
+
+</html>

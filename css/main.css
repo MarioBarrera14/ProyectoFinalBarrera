@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+/* Estilos para todas las pantallas */
+body {
+  background-image: url(/img/fondo.jpg);
+  font-family: 'Rubik', sans-serif;
+  background-size: 200% 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  animation: mov 30s infinite linear alternate;
+}
+
+@keyframes mov {
+  from {
+    background-position: left;
+  }
+
+  to {
+    background-position: right;
+  }
+}
+
+.contenedorPrincipal {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.swal-overlay {
+  background-color: rgba(54, 118, 221, 0.544);
+}
+
+.swal-text {
+  font-size: 40px;
+  text-align: center;
+}
+
+
+.prod {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.prod__img {  
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  padding: 10px;
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.button-43 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #208790;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-43:hover {
+  background-color: #3e8e41;
+}

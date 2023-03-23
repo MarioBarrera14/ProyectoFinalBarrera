@@ -1,0 +1,50 @@
+{
+  "productos": [
+    {
+      "nombre": "Samsung Galaxy A23 128GB edicion Negro ",
+      "precio": 105000.00,
+      "img": "/img/A23.jpeg"
+    },
+    {
+      "nombre": "Motorola G42 128GB Verde Atlántico",
+      "precio": 75000.00,
+      "img": "/img/motog.jpeg"
+
+    },
+    {
+      "nombre": "Motorola G72 128GB Blanco Brillante",
+      "precio": 110000.00,
+      "img": "/img/motog72.jpeg"
+
+    },
+    {
+      "nombre": "Smartphone TCL 30SE 256GB Space Gray",
+      "precio": 43000.00,
+      "img": "/img/tcl.jpeg"
+
+    },
+    {
+      "nombre": "Xiaomi Redmi Note 11 128GB Celeste",
+      "precio": 98000.00,
+      "img": "/img/xiaomi.jpeg"
+    },
+    {
+      "nombre": " Smartphone Motorola E13 64 GB Azul ",
+      "precio": 41000.00,
+      "img": "/img/e13.jpeg"
+
+    },
+    {
+      "nombre": "Samsung Galaxy S23 Ultra 256GB Cream",
+      "precio": 460000.00,
+      "img": "/img/s23.jpeg"
+
+    },
+    {
+      "nombre": "Motorola Edge 30 Neo Very Peri 128 GB",
+      "precio": 140000.00,
+      "img": "/img/edge30.jpeg"
+
+    }
+  ]
+}
